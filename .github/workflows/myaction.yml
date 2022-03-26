@@ -14,4 +14,4 @@ jobs:
       - name: install g++
         run: sudo apt install -y g++
       - name: check build
-        run: ./configure
+        run: source ./configure
