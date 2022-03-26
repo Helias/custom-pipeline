@@ -8,10 +8,10 @@ on:
 
 jobs:
   build:
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v2
-      - name: install g++
-      run: sudo apt install -y g++
-      - name: check build
-      run: ./configure
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install g++
+    run: sudo apt install -y g++
+    - name: check build
+    run: ./configure
