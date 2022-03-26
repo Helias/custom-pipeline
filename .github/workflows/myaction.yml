@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: install g++
-      run: sudo apt install -y g++
+        run: sudo apt install -y g++
       - name: check build
-      run: ./configure
+        run: ./configure
